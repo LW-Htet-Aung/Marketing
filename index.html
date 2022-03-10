@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marketing</title>
+    <link
+      rel="stylesheet"
+      href="vendor/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="icon" href="img/logo.svg" />
+    <link rel="stylesheet" href="vendor/feather-icons-web/feather.css" />
+    <link rel="stylesheet" href="vendor/slick/slick.css" />
+    <link rel="stylesheet" href="vendor/slick/slick-theme.css" />
+    <link rel="stylesheet" href="vendor/animate_it/animate.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      .loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        z-index: 100000;
+      }
+      .loader-gif {
+        width: 150px;
+        height: 150px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="loader">
+      <img src="img/Dual Ball-1s-200px.gif" class="loader-gif" />
+    </div>
+
+    <nav
+      class="navbar site-nav navbar-light navbar-expand-md wow animate__slideInDown"
+    >
+      <div class="container-fluid p-0 px-md-3 px-lg-5">
+        <a class="navbar-brand" href="#"
+          ><img src="img/logo-long.svg" class="logo"
+        /></a>
+        <button
+          type="button"
+          class="navbar-toggler border-0"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="menu-icon">
+            <i class="feather feather-menu text-primary"></i>
+          </span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarCollapse"
+        >
+          <ul class="navbar-nav pt-lg-0 text-center">
+            <li class="nav-item">
+              <a
+                class="nav-link text-uppercase"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#about"> About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End Of Nav -->
+    <!-- Hero Section -->
+    <section class="home container-fluid" id="home">
+      <div class="row">
+        <div class="container">
+          <div
+            class="row min-vh-100 align-items-center justify-content-center flex-column-reverse flex-md-row"
+          >
+            <div class="col-12 col-md-6">
+              <div
+                class="text-uppercase ms-4 ms-md-5 wow animate__fadeInLeft animate__delay-1s"
+              >
+                <h4>Social Media</h4>
+                <h1 class="fw-bolder text-primary">For Business!</h1>
+                <p class="text-black-50">
+                  Performance based social media
+                  <br class="d-block d-md-white d-lg-block" />
+                  We Are Lorem Media
+                </p>
+                <a href="#" class="btn btn-primary mb-4">Get a free audit</a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div
+                class="mx-3 my-5 mx-lg-0 my-lg-0 wow animate__fadeInRight animate__delay-1-5"
+              >
+                <img src="img/content-1.svg" class="w-75 hero-content" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="vertical-social d-none d-lg-flex wow animate__fadeInUp">
+      <a href="#">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-facebook"
+        >
+          <path
+            d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+          ></path>
+        </svg>
+      </a>
+      <a href="#"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-instagram"
+        >
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg
+      ></a>
+      <a href="#"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-linkedin"
+        >
+          <path
+            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+          ></path>
+          <rect x="2" y="9" width="4" height="12"></rect>
+          <circle cx="4" cy="4" r="2"></circle></svg
+      ></a>
+      <a href="#"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-twitter"
+        >
+          <path
+            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+          ></path></svg
+      ></a>
+      <div class="line"></div>
+    </div>
+    <a
+      href="#about"
+      class="scroll-button d-none d-lg-flex shadow wow animate__fadeInDown animate__delay-1s"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#1a129f"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-chevrons-down animate__animated animate__bounce animate__infinite infinite"
+      >
+        <polyline points="7 13 12 18 17 13"></polyline>
+        <polyline points="7 6 12 11 17 6"></polyline>
+      </svg>
+    </a>
+    <!--End of Hero Section -->
+    <!-- Content Section -->
+    <section id="about" class="about container-fluid">
+      <div class="row min-vh-100 align-items-center justify-content-center">
+        <div class="col-12 col-md-6">
+          <div
+            class="mx-3 my-5 mx-lg-0 my-lg-0 text-md-end wow animate__bounceInLeft animate__delay-1s"
+          >
+            <img src="img/content-2.svg" class="w-75 hero-content" />
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div
+            class="py-3 text-uppercase ms-4 about-card w-75 wow animate__bounceInRight animate__delay-1s"
+          >
+            <p class="text-secondary">Biography</p>
+            <h4 class="fw-bolder">Who We Are?</h4>
+            <p class="text-black-50 my-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+              quam deserunt qui voluptate blanditiis consectetur dignissimos
+              culpa, magnam in accusantium.
+            </p>
+            <p>We Are qui voluptate blanditiis consectetur Media 2022</p>
+            <a href="#" class="btn btn-primary mb-4 mt-3">See More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Content Section -->
+
+    <!-- Services -->
+    <section class="services container-fluid" id="services">
+      <div class="row min-vh-100">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-12">
+              <div class="m-4 wow animate__pulse">
+                <p class="text-secondary">Our Services</p>
+                <h4 class="fw-bolder">What We Offer</h4>
+              </div>
+            </div>
+
+            <div
+              class="col-12 col-md-6 col-lg-4 wow animate__slideInRight animate__delay-0-5"
+            >
+              <div class="card mx-4 my-2 shadow border-0 rounded cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="img/icon-1.svg" class="content-card" alt="" />
+                  </div>
+
+                  <p class="fw-bolder text-primary my-4 text-uppercase">
+                    Media Management
+                  </p>
+                  <p class="service-description">
+                    Perfect for growing your brand’s social community and engage
+                    with the right audience. Lorem ipsum amet consectetur
+                    adipisicing elit.
+                  </p>
+
+                  <a href="#" class="btn btn-primary mt-3">See More</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-12 col-md-6 col-lg-4 wow animate__slideInRight animate__delay-0-5"
+            >
+              <div class="card mx-4 my-2 shadow border-0 rounded cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="img/icon-2.svg" class="content-card" alt="" />
+                  </div>
+
+                  <p class="fw-bolder text-primary my-4 text-uppercase">
+                    Social Campaign
+                  </p>
+                  <p class="service-description">
+                    Our social growth campaign will have your socials come
+                    alive. Lorem ipsum dolor sit tetur adipisicing elit.
+                  </p>
+
+                  <a href="#" class="btn btn-primary mt-3">See More</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-4 wow animate__slideInRight animate__delay-0-5"
+            >
+              <div class="card mx-4 my-2 shadow border-0 rounded cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="img/icon-3.svg" class="content-card" alt="" />
+                  </div>
+
+                  <p class="fw-bolder text-primary my-4 text-uppercase">
+                    Branding & Media
+                  </p>
+                  <p class="service-description">
+                    Done right, branding offers a company an edge over the
+                    competition. Lorem ipsum dt consectetur adipisicing elit.
+                  </p>
+
+                  <a href="#" class="btn btn-primary mt-3">See More</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-4 wow animate__slideInLeft animate__delay-0-5"
+            >
+              <div class="card mx-4 my-2 shadow border-0 rounded cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="img/icon-4.svg" class="content-card" alt="" />
+                  </div>
+
+                  <p class="fw-bolder text-primary my-4 text-uppercase">
+                    Influencer
+                  </p>
+                  <p class="service-description">
+                    We will pair your business with influencers that speak to
+                    your audience. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.
+                  </p>
+
+                  <a href="#" class="btn btn-primary mt-3">See More</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-4 wow animate__slideInLeft animate__delay-0-5"
+            >
+              <div class="card mx-4 my-2 shadow border-0 rounded cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="img/icon-5.svg" class="content-card" alt="" />
+                  </div>
+
+                  <p class="fw-bolder text-primary my-4 text-uppercase">
+                    Paid Advertisement
+                  </p>
+                  <p class="service-description">
+                    Our ad campaigns will bring you the results your looking
+                    for. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                  </p>
+
+                  <a href="#" class="btn btn-primary mt-3">See More</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-4 wow animate__slideInLeft animate__delay-0-5"
+            >
+              <div class="card mx-4 my-2 shadow border-0 rounded cards">
+                <div class="card-body">
+                  <div class="text-center">
+                    <img src="img/icon-6.svg" class="content-card" alt="" />
+                  </div>
+
+                  <p class="fw-bolder text-primary my-4 text-uppercase">
+                    Content Marketing
+                  </p>
+                  <p class="service-description">
+                    We can create and provide your company with the best content
+                    marketing for your socials to improve online presence. Lorem
+                    ipolor .
+                  </p>
+
+                  <a href="#" class="btn btn-primary mt-3">See More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Services -->
+
+    <!-- Price Section -->
+
+    <section class="price container-fluid mt-5" id="pricing">
+      <div class="row">
+        <div class="container">
+          <div class="col-12">
+            <div class="m-4 text-center">
+              <p class="text-secondary">Pricing</p>
+              <h4 class="fw-bolder text-uppercase">Our Pricing</h4>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div
+            class="row pt-5 pricing-slide overflow-hidden wow animate__tada animate__delay-1s"
+          >
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-4 my-2 shadow border-0 rounded cards py-4">
+                <div class="card-body text-center">
+                  <h4 class="fw-bolder text-primary text-uppercase">
+                    One Package
+                  </h4>
+                  <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores expedita, nemo omnis.
+                  </p>
+                  <h4 class="fw-bolder text-primary">$100</h4>
+                  <a href="#" class="btn btn-outline-primary mt-3"
+                    >See Detail</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-4 my-2 shadow border-0 rounded cards py-4">
+                <div class="card-body text-center">
+                  <h4 class="fw-bolder text-primary text-uppercase">
+                    Two Package
+                  </h4>
+                  <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores expedita, nemo omnis.
+                  </p>
+                  <h4 class="fw-bolder text-primary">$120</h4>
+                  <a href="#" class="btn btn-outline-primary mt-3"
+                    >See Detail</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-4 my-2 shadow border-0 rounded cards py-4">
+                <div class="card-body text-center">
+                  <h4 class="fw-bolder text-primary text-uppercase">
+                    Three Package
+                  </h4>
+                  <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores expedita, nemo omnis.
+                  </p>
+                  <h4 class="fw-bolder text-primary">$160</h4>
+                  <a href="#" class="btn btn-outline-primary mt-3"
+                    >See Detail</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-4 my-2 shadow border-0 rounded cards py-4">
+                <div class="card-body text-center">
+                  <h4 class="fw-bolder text-primary text-uppercase">
+                    Four Package
+                  </h4>
+                  <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores expedita, nemo omnis.
+                  </p>
+                  <h4 class="fw-bolder text-primary">$180</h4>
+                  <a href="#" class="btn btn-outline-primary mt-3"
+                    >See Detail</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-4 my-2 shadow border-0 rounded cards py-4">
+                <div class="card-body text-center">
+                  <h4 class="fw-bolder text-primary text-uppercase">
+                    Five Package
+                  </h4>
+                  <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores expedita, nemo omnis.
+                  </p>
+                  <h4 class="fw-bolder text-primary">$200</h4>
+                  <a href="#" class="btn btn-outline-primary mt-3"
+                    >See Detail</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-4 my-2 shadow border-0 rounded cards py-4">
+                <div class="card-body text-center">
+                  <h4 class="fw-bolder text-primary text-uppercase">
+                    Six Package
+                  </h4>
+                  <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores expedita, nemo omnis.
+                  </p>
+                  <h4 class="fw-bolder text-primary">$220</h4>
+                  <a href="#" class="btn btn-outline-primary mt-3"
+                    >See Detail</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- 9 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-4 my-2 shadow border-0 rounded cards py-4">
+                <div class="card-body text-center">
+                  <h4 class="fw-bolder text-primary text-uppercase">
+                    Seven Package
+                  </h4>
+                  <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores expedita, nemo omnis.
+                  </p>
+                  <h4 class="fw-bolder text-primary">$240</h4>
+                  <a href="#" class="btn btn-outline-primary mt-3"
+                    >See Detail</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-4 my-2 shadow border-0 rounded cards py-4">
+                <div class="card-body text-center">
+                  <h4 class="fw-bolder text-primary text-uppercase">
+                    Eight Package
+                  </h4>
+                  <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores expedita, nemo omnis.
+                  </p>
+                  <h4 class="fw-bolder text-primary">$280</h4>
+                  <a href="#" class="btn btn-outline-primary mt-3"
+                    >See Detail</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card mx-4 my-2 shadow border-0 rounded cards py-4">
+                <div class="card-body text-center">
+                  <h4 class="fw-bolder text-primary text-uppercase">
+                    Nine Package
+                  </h4>
+                  <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores expedita, nemo omnis.
+                  </p>
+                  <h4 class="fw-bolder text-primary">$300</h4>
+                  <a href="#" class="btn btn-outline-primary mt-3"
+                    >See Detail</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  End of Price Section -->
+
+    <!-- Contact Us -->
+    <section class="contact-us container-fluid" id="contact">
+      <div class="row">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-12 mb-3">
+              <div class="m-4 text-center wow animate__slideInDown">
+                <p class="text-secondary">Contact Us</p>
+                <h4 class="fw-bolder text-uppercase">Get In Touch With Us</h4>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7638.298414910054!2d96.20281606301269!3d16.818952444216496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1949e223e196b%3A0x56fbd271f8080bb4!2sYangon%2C%20Myanmar%20(Burma)!5e0!3m2!1sen!2suk!4v1646843694118!5m2!1sen!2suk"
+                width="100%"
+                height="320"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                class="mx-4 rounded wow animate__slideInLeft animate__delay-0-5"
+              ></iframe>
+            </div>
+            <div class="col-12 col-md-6">
+              <form
+                action="#"
+                class="mx-4 wow animate__slideInRight animate__delay-1s"
+              >
+                <div class="my-4">
+                  <input type="text" class="form-control" placeholder="Name" />
+                </div>
+                <div class="my-4">
+                  <input type="text" class="form-control" placeholder="Email" />
+                </div>
+                <div class="my-4">
+                  <textarea
+                    row="5"
+                    class="form-control"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <div class="my-4">
+                  <button class="btn btn-primary">Sent Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="row">
+        <footer class="col-12 footer">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-3">
+              <div class="container">
+                <div
+                  class="text-white text-center mb-5 mb-lg-0 wow animate__slideInLeft animate__delay-1s"
+                >
+                  <p class="text-uppercase">Stay In Touch</p>
+                  <h2 class="text-uppercase mb-4 fw-bold">Marketing</h2>
+                  <div class="d-flex justify-content-evenly">
+                    <a href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="white"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-facebook"
+                      >
+                        <path
+                          d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                        ></path>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="white"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-twitter"
+                      >
+                        <path
+                          d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                        ></path>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="white"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-instagram"
+                      >
+                        <rect
+                          x="2"
+                          y="2"
+                          width="20"
+                          height="20"
+                          rx="5"
+                          ry="5"
+                        ></rect>
+                        <path
+                          d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                        ></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                      </svg>
+                    </a>
+                    <a href="#">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="white"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-linkedin"
+                      >
+                        <path
+                          d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                        ></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <div
+                class="text-white mb-5 mb-lg-0 wow animate__slideInLeft animate__delay-0-5"
+              >
+                <h4 class="text-uppercase mb-3">Quick Links</h4>
+                <ul class="list-inline">
+                  <li class="my-2">
+                    <a href="#" class="text-white-50">Home</a>
+                  </li>
+                  <li class="my-2">
+                    <a href="#" class="text-white-50">About</a>
+                  </li>
+                  <li class="my-2">
+                    <a href="#" class="text-white-50">Pricing</a>
+                  </li>
+                  <li class="my-2">
+                    <a href="#" class="text-white-50">Service</a>
+                  </li>
+                  <li class="my-2">
+                    <a href="#" class="text-white-50">Location</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <div
+                class="text-white mb-5 mb-lg-0 wow animate__slideInRight animate__delay-0-5"
+              >
+                <h4 class="text-uppercase mb-3">Hours</h4>
+                <table class="text-white-50">
+                  <tr>
+                    <td>Monday</td>
+                    <td>:9:00 - 18:00</td>
+                  </tr>
+                  <tr>
+                    <td>Tuesday</td>
+                    <td>:9:00 - 18:00</td>
+                  </tr>
+                  <tr>
+                    <td>Wednesday</td>
+                    <td>:9:00 - 18:00</td>
+                  </tr>
+                  <tr>
+                    <td>Thursday</td>
+                    <td>:9:00 - 18:00</td>
+                  </tr>
+                  <tr>
+                    <td>Friday</td>
+                    <td>:9:00 - 18:00</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <div
+                class="text-white mb-5 mb-lg-0 wow animate__slideInRight animate__delay-1s"
+              >
+                <h4 class="text-uppercase mb-3">Contact</h4>
+                <ul class="list-inline">
+                  <li class="my-2">
+                    <a href="#" class="text-white-50">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-smartphone me-2"
+                      >
+                        <rect
+                          x="5"
+                          y="2"
+                          width="14"
+                          height="20"
+                          rx="2"
+                          ry="2"
+                        ></rect>
+                        <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                      </svg>
+                      09123456779
+                    </a>
+                  </li>
+                  <li class="my-2">
+                    <a href="#" class="text-white-50">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-mail me-2"
+                      >
+                        <path
+                          d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                        ></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                      </svg>
+                      marketing2022@gmail.com
+                    </a>
+                  </li>
+                  <li class="my-2">
+                    <a href="#" class="text-white-50">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-map me-2"
+                      >
+                        <polygon
+                          points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"
+                        ></polygon>
+                        <line x1="8" y1="2" x2="8" y2="18"></line>
+                        <line x1="16" y1="6" x2="16" y2="22"></line>
+                      </svg>
+                      Yangon Myanmar
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <!-- End Of Footer -->
+      <!-- To top -->
+      <a
+        href="#home"
+        class="top shadow animate__animated animate__fadeIn invisible"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-chevron-up"
+        >
+          <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+      </a>
+    </section>
+    <!-- End of Contact Us -->
+
+    <script src="vendor/jquery-3.3.1.min.js"></script>
+    <script src="vendor/wow/wow.js"></script>
+    <script src="vendor/slick/slick.js"></script>
+    <script src="vendor/way_point/jquery.waypoints.min.js"></script>
+    <script src="vendor/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --primary: #1a129f;
+  --secondary: #7e76f915;
+  --white: #fff;
+  --dark: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 150px;
+}
+.site-nav {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+
+  z-index: 9999;
+}
+.site-nav-scroll {
+  position: fixed;
+  transition: all 0.5s;
+  background-color: var(--white);
+
+  box-shadow: 0 0 5px #00000020;
+}
+.site-nav-scroll .nav-link {
+  color: var(--primary) !important;
+}
+.active {
+  border-bottom: 3px solid var(--primary);
+}
+.home {
+  background: url(../img/Bg-Shape.svg) no-repeat top right;
+  background-size: 50%;
+}
+.navbar {
+  padding: 0;
+  max-height: 80px;
+}
+.navbar-brand {
+  padding-bottom: 20px;
+  margin-right: 0;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+  border: none !important;
+}
+.nav-link {
+  color: var(--white) !important;
+}
+.vertical-social {
+  position: absolute;
+  left: 0;
+  bottom: 3%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 1.2rem;
+}
+.vertical-social a {
+  margin: 5px 0;
+}
+.scroll-button {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 5%;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scroll-button svg {
+  width: 40px;
+  height: 40px;
+}
+.line {
+  background-color: var(--primary);
+  height: 30px;
+  width: 5px;
+}
+.about-card {
+  background: url(../img/bg-2.svg) no-repeat center;
+  background-size: 100%;
+}
+.about,
+.price {
+  background-color: var(--secondary);
+}
+
+.services {
+  background: url(../img/bg-3.svg) no-repeat center;
+  background-size: 100%;
+}
+.content-card:hover {
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+.cards {
+  text-align: left;
+  border-radius: 25px !important;
+}
+.cards:hover {
+  transform: scale(1.015);
+  transition: all 0.3s;
+}
+.service-description {
+  word-break: break-all;
+  height: 150px;
+}
+.slick-list {
+  padding-bottom: 30px;
+}
+.slick-dots {
+  position: relative;
+}
+.slick-active {
+  font-size: 25px;
+}
+.footer {
+  padding-top: 150px;
+  margin-top: 20px;
+  background-color: var(--primary);
+}
+table,
+tr,
+td {
+  cursor: pointer;
+}
+tr:hover td,
+li > a:hover {
+  transition: all 0.5s;
+  color: var(--white) !important;
+}
+td {
+  width: 150px;
+  height: 40px;
+}
+a:hover svg.feather-smartphone {
+  fill: green;
+  transition: all 0.5s;
+}
+a:hover svg.feather-mail {
+  fill: red;
+  transition: all 0.5s;
+}
+a:hover svg.feather-map {
+  fill: blueviolet;
+  transition: all 0.5s;
+}
+.feather-facebook:hover,
+.feather-twitter:hover,
+.feather-instagram:hover,
+.feather-linkedin:hover {
+  fill: var(--primary);
+  transition: all 0.5s;
+  stroke: var(--white);
+}
+/* Animation */
+.animate__delay-0-5 {
+  animation-delay: 0.5s;
+}
+.animate__delay-1-5 {
+  animation-delay: 1.5s;
+}
+.animate__delay-2-5 {
+  animation-delay: 2.5s;
+}
+.top {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  background-color: var(--white);
+  width: 40px;
+  height: 40px;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top svg {
+  stroke: var(--primary);
+}
+.top:hover {
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+@media screen and (max-width: 768px) {
+  .site-nav {
+    color: #00000020;
+  }
+  .navbar-collapse {
+    position: relative;
+    top: -8px;
+    left: 0;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+  }
+  .navbar-brand {
+    margin-left: 1.5rem;
+  }
+  .navbar-toggler {
+    margin-right: 1.5rem;
+  }
+  .navbar-nav {
+    background-color: var(--white);
+    padding: 0 1.5rem;
+  }
+  .nav-item {
+    margin: 10px 0;
+    border-radius: 0.2rem;
+  }
+  .nav-link {
+    color: #3b3b3bef !important;
+  }
+  .active {
+    background-color: var(--primary);
+    border: none;
+  }
+  .nav-item.active .nav-link {
+    color: var(--white) !important;
+  }
+  .hero-content {
+    width: 100% !important ;
+  }
+  .about-card {
+    width: 95% !important;
+  }
+  .navbar-toggler:focus {
+    border: none !important ;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
